@@ -26,18 +26,18 @@ docker inspect <sonarqube-server>
 + PROJECT_KEY.- Nombre del proyecto (sin espacios en blanco)
 + REPO_PATH.- La ruta hacia el proyecto a escanear.
 
-2.- Crear un archivo [`sonar-project.properties`] desde el template y guardarlo en el proyecto a escanear.
+2.- Crear un archivo `sonar-project.properties` desde el template y guardarlo en el proyecto a escanear.
 
 ## Run a Scan
 
 - Para usuarios Linux / MacOS:
-* Ejecutar el scan con el script [`run.sh`]:
+* Ejecutar el scan con el script `run.sh`:
 
 ```bash
     ./run.sh
 ```
 - Para usuarios Windows:
-* Ejecutar el scan con el script [`run.bat`]:
+* Ejecutar el scan con el script `run.bat`:
 ```bash
     ./run.bat
 ```
