@@ -31,13 +31,13 @@ docker inspect <sonarqube-server>
 ## Run a Scan
 
 - Para usuarios Linux / MacOS:
-* Ejecutar el scan con el script `run.sh`:
+    * Ejecutar el scan con el script `run.sh`:
 
 ```bash
     ./run.sh
 ```
 - Para usuarios Windows:
-* Ejecutar el scan con el script `run.bat`:
+    * Ejecutar el scan con el script `run.bat`:
 ```bash
     ./run.bat
 ```
