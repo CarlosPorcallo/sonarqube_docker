@@ -15,16 +15,16 @@
     - Para usuarios Windows:
         * Establecer el valor de las <variables> correspondientes en el archivo .bat correspondiente.
 
-    Algunos de los datos requeridos son:
-        + SONARQUBE_URL.- La url/ip del servidor SonarQube, para obtenerla desde Docker ejecutar un inspect al contenedor correspondiente:
+Algunos de los datos requeridos son:
+    + SONARQUBE_URL.- La url/ip del servidor SonarQube, para obtenerla desde Docker ejecutar un inspect al contenedor correspondiente:
 
-        ```bash
-        docker inspect <sonarqube-server>
-        ```
-
-        + SONAR_TOKEN.- Token de acceso creado desde SonarQube.
-        + PROJECT_KEY.- Nombre del proyecto (sin espacios en blanco)
-        + REPO_PATH.- La ruta hacia el proyecto a escanear.
+    ```bash
+    docker inspect <sonarqube-server>
+    ```
+    
+    + SONAR_TOKEN.- Token de acceso creado desde SonarQube.
+    + PROJECT_KEY.- Nombre del proyecto (sin espacios en blanco)
+    + REPO_PATH.- La ruta hacia el proyecto a escanear.
 
 2.- Crear un archivo [sonar-project.properties] desde el template y guardarlo en el proyecto a escanear.
 
